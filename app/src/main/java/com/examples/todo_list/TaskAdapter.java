@@ -69,8 +69,6 @@ public class TaskAdapter extends RecyclerView.Adapter<TaskAdapter.TaskViewHolder
      */
     @Override
     public TaskViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-
-
         TaskLayoutBinding binding = TaskLayoutBinding.inflate(LayoutInflater.from(parent.getContext()), parent, false);
 
 
